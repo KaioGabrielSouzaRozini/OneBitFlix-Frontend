@@ -1,4 +1,5 @@
 import Head from "next/head";
+import CardSection from "../src/components/homeNoAtuth/cardsSection";
 import HeaderNoAuth from "../src/components/homeNoAtuth/headerNoAuth";
 import PresentationSection from "../src/components/homeNoAtuth/presentationSection";
 import styles from "../styles/HomeNoAuth.module.scss";
@@ -20,6 +21,7 @@ const HomeNoAuth = () => {
           <HeaderNoAuth />
           <PresentationSection />
         </div>
+        <CardSection />
       </main>
     </>
   );
