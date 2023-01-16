@@ -5,8 +5,9 @@ export type EpisodeType = {
   name: string;
   synopsis: string;
   order: number;
+  videoUrl: string;
+  secondsLong: number;
 };
-
 export type CourseType = {
   id: number;
   name: string;
@@ -14,7 +15,6 @@ export type CourseType = {
   synopsis: string;
   episodes?: EpisodeType[];
 };
-
 const courseService = {
   getNewestCourses: async () => {
     const res = await api.get("/courses/newest").catch((error) => {
