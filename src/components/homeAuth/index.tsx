@@ -1,5 +1,5 @@
-const HomeAuth1 = function () {
+const a1 = function () {
   return <></>;
 };
 
-export default HomeAuth1;
+export default a1;
