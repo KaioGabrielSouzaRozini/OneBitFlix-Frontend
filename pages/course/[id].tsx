@@ -33,8 +33,10 @@ const CoursePage = function () {
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
       </Head>
       <main>
-        <HeaderAuth />
-        <p>{course?.name}</p>
+        <div>
+          <HeaderAuth />
+          <p>{course?.name}</p>
+        </div>
       </main>
     </>
   );
